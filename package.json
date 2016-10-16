@@ -1,0 +1,36 @@
+{
+  "name": "react-test-utilities",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gallery.js",
+  "dependencies": {
+    "babel-register": "^6.16.3",
+    "chai": "^3.5.0",
+    "react": "^15.3.2",
+    "react-addons-test-utils": "^15.3.2",
+    "react-dom": "^15.3.2"
+  },
+  "devDependencies": {
+    "mocha": "^3.1.2",
+    "webpack": "^1.13.2"
+  },
+  "scripts": {
+    "test": "mocha --compilers js:babel-register test/**/*.js*"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "react"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dobs1211/react-test-utilities.git"
+  },
+  "author": "olga chavez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dobs1211/react-test-utilities/issues"
+  },
+  "homepage": "https://github.com/dobs1211/react-test-utilities#readme"
+}
